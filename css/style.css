@@ -1,5 +1,6 @@
 html {
 	font-family: 'Roboto', sans-serif;
+	display: inline;
 }
 
 body {
@@ -7,19 +8,15 @@ body {
 	margin: 0 auto;
 }
 
-p {
-	color: #646464;
-	text-align: center;
-	letter-spacing: 1.5px;
-}
-
 a:hover {
-	color: #94e8a1;
+	color: #3c5987;
+	font-weight: bolder;
+	opacity: .2;
 }
 
 .header_bar {
-	display: block;
-	width: 100%;
+/*	display: block;
+*/	width: 100%;
 /*	margin: 20px 0;
 */	background-color: #f5f5f5;
 	border-bottom: 1px solid #e5e5e5;
@@ -40,7 +37,7 @@ a:hover {
 .header_nav_item {
 /*	width: 50%;
 */	float: right;
-	margin-left: 60px;
+	margin-left: 30px;
 }
 
 .header_links {
@@ -56,4 +53,43 @@ a:hover {
 #head_title {
 	font-size: 30px;
 	letter-spacing: 3px;
+}
+
+#text {
+	color: #646464;
+	text-align: center;
+	letter-spacing: 1.5px;
+	margin: auto;
+}
+
+#text p {
+	text-align: center;
+}
+
+#icon_links_container {
+	padding-top: 50px;
+}
+
+.icon_links {
+	text-align: center;
+	display: inline-block;
+
+}
+
+.icons {
+	width: 2.3em;
+	height: 2.3em;
+	margin-right: 5px;
+	border: 0;
+}
+
+.icons:hover {
+	background-color: #e5e5e5;
+	border-radius: 5px;
+}
+
+hr {
+	opacity: .2;
+	margin-top: 20px;
+	width: 70%;
 }
