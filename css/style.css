@@ -1,7 +1,7 @@
 html {
 	font-family: 'Roboto', sans-serif;
-	display: inline;
-}
+/*	display: inline;
+*/}
 
 body {
 	width: 100%;
@@ -13,6 +13,8 @@ a:hover {
 	font-weight: bolder;
 	opacity: .2;
 }
+
+
 
 .header_bar {
 /*	display: block;
@@ -51,20 +53,53 @@ a:hover {
 }
 
 #head_title {
-	font-size: 30px;
-	letter-spacing: 3px;
+	font-size: 40px;
 }
 
 #text {
-	color: #646464;
-	text-align: center;
-	letter-spacing: 1.5px;
-	margin: auto;
+        color: #646464;
+        text-align: center;
+        letter-spacing: 1.5px;
+        margin: auto;
+        width: 500px;
+}
+
+.about_me {
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-align: center;
+        line-height: 20px;
+        font-weight: 900;
+}
+
+.text_container {
+        color: #646464;
+        text-align: left;
+        letter-spacing: 1px;
+        margin: auto;
+        width: 40em;
 }
 
 #text p {
-	text-align: center;
+        text-align: center;
+        line-height: 25px;
+        letter-spacing: 1.75px;
 }
+
+.text_content {
+		/*text-indent: 20px;
+		padding-left: -20px;*/
+        text-align: left;
+        line-height: 23px;
+/*        font-family: 'Raleway', sans-serif;
+*/
+}
+
+.sub_header {
+        font-size: 22px;
+        letter-spacing: 1.6px;
+}
+
 
 #icon_links_container {
 	padding-top: 50px;
