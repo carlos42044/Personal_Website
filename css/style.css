@@ -64,44 +64,36 @@ a {
 
 }
 
-#head_title {
-	font-size: 4.75vh;
-}
-
 #home_text p{
         text-align: center;
         line-height: 5vh;
         letter-spacing: 9vh;
 }
 
-.about_me {
-        font-size: 30px;
-        letter-spacing: 3px;
+.page_title {
+        font-size: 4.75vh;
+        letter-spacing: .3vh;
         text-align: center;
-        line-height: 20px;
+        line-height: 5vh;
         font-weight: 900;
 }
 
 .text_container {
         color: #646464;
-        text-align: left;
-        letter-spacing: 1px;
-        margin: auto;
-        width: 40em;
-}
+/*        letter-spacing: .2vh;
+*/        margin: auto;
+        width: 90%;
+/*        padding: 2vh;
+*/}
 
 .text_content {
-		/*text-indent: 20px;
-		padding-left: -20px;*/
-        text-align: left;
-        line-height: 23px;
-/*        font-family: 'Raleway', sans-serif;
-*/
+        text-align: justify;
+        line-height: 3vh;
 }
 
 .sub_header {
-        font-size: 22px;
-        letter-spacing: 1.6px;
+        font-size: 3.75vh;
+        letter-spacing: .3vh;
 }
 
 
